@@ -109,15 +109,12 @@
     align-items: center;
     gap: 80px;
     
-    /* display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: center;
-    gap: 15px; */
 }
 .standard,.pro,.team{
     border: 2px solid rgb(212, 212, 212);
     border-radius: 10px;
     text-align: left;
+    padding: 5px 15px;
 }
 .pro{
     background-color:#0D1B2A;
@@ -200,6 +197,7 @@
     padding: 15px 35px;
 } 
 /* AI Prompts end */
+
 .last-footer{
     background-color:#1F2937;
 }
@@ -225,7 +223,12 @@
     text-align: center;
     color: white;
 }
+.secure-parent2 hr{
+    
+    width: 80%;
+    margin: 20px auto;
 
+}
 
 
 
