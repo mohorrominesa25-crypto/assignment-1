@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color:rgb(238, 216, 216); */
     margin: 10px auto;
     padding: 20px;
 }
@@ -61,4 +60,37 @@
     margin-top: 350px;
     font-size: 25px; 
     padding: 14px 35px;
+}
+.speaker-parent h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.speaker-card{
+   
+    display: flex;
+   
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.speaker-left .box-1 ,.speaker-left .box-2,.speaker-right .box-3 ,.speaker-right .box-4{
+    border: 2px solid rgb(212, 212, 212);
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+.speaker-card img{
+    border-radius: 10px;
+}
+.box-1 p,.box-2 p,.box-3 p, .box-4 p{
+    color: blue;
+    font-size: 12px;
+}
+.box-1 p:last-child,.box-2 p:last-child,.box-3 p:last-child,.box-4 p:last-child{
+    color: #575757;
+}
+.speaker-parent{
+    margin: 70px 0;
 }
