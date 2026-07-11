@@ -166,6 +166,40 @@
  .secure-parent2 .standard p, .secure-parent2 .team p{
     color: #575757;
 }
+/* AI Prompts CSS CODE */
+.cta-parent{
+    margin-top: 100px;
+    padding: 100px 20px;
+    background: linear-gradient(rgba(13,27,42,.95), rgba(13,27,42,.95)),
+                url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.cta-content{
+    max-width: 700px;
+    margin: auto;
+}
+
+.cta-content h2{
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.cta-content p{
+    color: #d1d5db;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+.cta-content button{
+    margin-right: 0;
+    padding: 15px 35px;
+} 
+/* AI Prompts end */
 
 
 
