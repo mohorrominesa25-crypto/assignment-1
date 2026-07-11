@@ -136,6 +136,8 @@
     font-size: 15px;
  font-weight:bold;
     border: 2px solid   rgb(88, 88, 225);
+    width: calc(100% - 20px);
+ margin: 10px;
 }
 .pro-btn{
  background-color:   rgb(88, 88, 225);
@@ -143,15 +145,28 @@
  color: white;
  font-size: 15px;
  font-weight:bold;
+ width: calc(100% - 20px);
+ margin: 10px;
 }
 .team-btn{
     border:2px solid  #575757;
     color: #575757;
     font-size: 15px;
  font-weight:bold;
+ width: calc(100% - 20px);
+ margin: 10px;
 } 
 .secure-parent{
     margin-bottom: 100px;
 }
+.secure-parent2 h2{
+    font-weight: bold;
+    font-size: 32px;
+}
+ .secure-parent2 .standard p, .secure-parent2 .team p{
+    color: #575757;
+}
+
+
 
 
