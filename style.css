@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(238, 216, 216);
+    margin: 10px auto;
+    padding: 20px;
+}
+.common-btn{
+    background-color: blue;
+    border: none;
+    padding: 10px 25px;
+     margin-right:50px;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+   
+}
+.nav-item a{
+    text-decoration: none;
+     color:#575757;
+}
+.logo{
+    margin-left: 50px;
+}
