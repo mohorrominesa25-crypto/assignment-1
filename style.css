@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgb(238, 216, 216);
+    /* background-color:rgb(238, 216, 216); */
     margin: 10px auto;
     padding: 20px;
 }
@@ -29,4 +29,36 @@
 }
 .logo{
     margin-left: 50px;
+}
+.hero-parent{
+    height: 100vh;
+    
+    background-image:
+        linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+        url("./assets/banner.jpg");
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.hero-content h2{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 20px;
+}
+.hero-content p{
+    color: white;
+    font-size: 18px;
+    max-width: 550px;
+    
+}
+.hero-btn{
+    margin-top: 350px;
+    font-size: 25px; 
+    padding: 14px 35px;
 }
