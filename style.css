@@ -200,6 +200,32 @@
     padding: 15px 35px;
 } 
 /* AI Prompts end */
+.last-footer{
+    background-color:#1F2937;
+}
+.footer-top img{
+    height: 30px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+.footer-bottom{
+    text-align: center;
+    color: white;
+}
+
 
 
 
